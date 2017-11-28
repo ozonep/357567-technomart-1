@@ -4,14 +4,17 @@
 
 #### Прежде чем приступать к новому заданию, обновите `master`
 
-Обновить свой репозиторий с помощью программы [GitHub Desktop](https://desktop.github.com) можно так:
+Обновить свой репозиторий из репозитория Академии с помощью программы [GitHub Desktop](https://desktop.github.com) можно так:
 
 - Откройте ваш локальный репозиторий в программе GitHub Desktop.
 
-- Нажмите на кнопку в верхней панели «Fetch origin».
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/14426732/dde27180-0001-11e6-8d07-915ec01c6389.png">
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29034537-353cee30-7ba1-11e7-8db2-f18845f308da.png">
+- Нажмите на кнопку в левом верхнем углу «Update from htmlacademy-htmlcss/master».
 
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/14426733/dde2d04e-0001-11e6-8570-d5fc9c5afc74.png">
+
+- Отправьте изменения в Гитхаб, нажав на кнопку в правом верхнем углу «Sync».
 - Когда вы обновили `master`, приступайте к выполнению следующего задания.
 
 --

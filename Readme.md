@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
-* Студент: [Иван Малков](https://up.htmlacademy.ru/htmlcss/19/user/357567).
-* Наставник: `Неизвестно`.
+* Студент: [Иван Малков](https://up.htmlacademy.ru/htmlcss/17/user/357567).
+* Наставник: `Ирина Малиновская`.
 
 ---
 
@@ -20,17 +20,17 @@ _`.editorconfig`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
 [Откройте мастер-репозиторий](https://github.com/htmlacademy-htmlcss/357567-technomart) и нажмите кнопку «Fork» в правом верхнем углу. Репозиторий из Академии скопируется в ваш аккаунт.
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037784-cf833fec-7bad-11e7-8eec-dfe32aac11b1.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391960/7a6d69bc-bdfc-11e5-907b-2d492ab975bc.jpg">
 
 Получится вот так:
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037785-d1363f60-7bad-11e7-99da-f02a2f996a01.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391959/7a69a0de-bdfc-11e5-9d47-d9e7197b3a20.jpg">
 
 #### 3. Клонируйте репозиторий на свой компьютер
 
-Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку «Clone or download», а затем «Open in Desktop», чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
+Будьте внимательны: нужно клонировать свой репозиторий (форк), а не репозиторий Академии. Нажмите кнопку с иконкой компьютера и стрелкой, чтобы клонировать репозиторий через программу [GitHub Desktop](https://desktop.github.com):
 
-<img width="769" alt="" src="https://user-images.githubusercontent.com/10909/29037788-d26a3558-7bad-11e7-9d08-2f9f0f6e467a.jpg">
+<img width="769" alt="" src="https://cloud.githubusercontent.com/assets/10909/12391902/17d49924-bdfc-11e5-8864-05fbcbddbb90.jpg">
 
 Программа клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
