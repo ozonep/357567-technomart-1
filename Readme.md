@@ -1,6 +1,6 @@
 # Личный проект «Техномарт»
 
-* Студент: [Иван Малков](https://up.htmlacademy.ru/htmlcss/17/user/357567).
+* Студент: [Иван Малков](https://up.htmlacademy.ru/htmlcss/19/user/357567).
 * Наставник: `no nastavnik`.
 
 ---
