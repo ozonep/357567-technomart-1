@@ -204,26 +204,26 @@
             </div>
         </section>
         <section class="service">
-            <div class="container">
+            <div class="container" id="blob">
                 <div class="services-description">
                     <h2>Сервисы</h2>
                     <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
                 </div>
                 <div class="delivery-guarantee-credit flex">
                     <div class="delivery-slider flex">
-                        <a href="#" class="active">Доставка</a>
-                        <a href="#">Гарантия</a>
-                        <a href="#">Кредит</a>
+                        <a href="#blob" class="deliveryBtn active">Доставка</a>
+                        <a href="#blob" class="deliveryBtn">Гарантия</a>
+                        <a href="#blob" class="deliveryBtn">Кредит</a>
                     </div>
-                    <div class="delivery-info">
+                    <div class="delivery-info showing boxes">
                         <h2>Доставка</h2>
                         <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем,<br>поднимая его на ваш этаж!</p>
                     </div>
-                    <div class="guarantee-info">
+                    <div class="guarantee-info boxes">
                         <h2>Гарантия</h2>
                         <p>Если купленный у нас товар поломается или заискрит,<br>а также в случае пожара, спровоцированного его возгаранием,  вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый.<br>Дом уж восстановите как-нибудь сами.</p>
                     </div>
-                    <div class="credit-info">
+                    <div class="credit-info boxes">
                         <h2>Кредит</h2>
                         <p>Залезть в долговую яму стало проще!<br>Кредитные консультанты придут вам на помощь.</p>
                         <a href="#">Отправить заявку</a>
@@ -242,7 +242,7 @@
                         <li>Автотрейдинг</li>
                         <li>ЖелДорЭкспедиция</li>
                     </ul>
-                    <a href="№">Подробнее о компании</a>
+                    <a href="#">Подробнее о компании</a>
                 </div>
                 <div class="company-address">
                     <h2>Контакты</h2>
@@ -285,9 +285,9 @@
             <div class="container flex">
                 <small class="copyright-info">&#169; 2010-2017 Компания «Техномарт» Все права защищены</small>
                 <div class="social flex">
-                    <a href="#" class="icon icon-vk"></a>
-                    <a href="#" class="icon icon-fb"></a>
-                    <a href="#" class="icon icon-insta"></a>
+                    <a href="#" class="icon icon-vk" title="Вконтакте"></a>
+                    <a href="#" class="icon icon-fb" title="Фейсбук"></a>
+                    <a href="#" class="icon icon-insta" title="Инстаграм"></a>
                 </div>
                 <div class="made-by flex">
                     <div class="email">
@@ -303,8 +303,8 @@
         </section>
     </footer>
     <div id="open-feedback" class="feedback-container">
-        <form action="index.php" method="POST">
-            <a href="#close" class="close"></a>
+        <form action="index.html" method="POST">
+            <a href="#close" class="close" id="close"></a>
             <div class="upper-feedback-form">
                 <label class="name-input">
                     Ваше имя:
@@ -324,5 +324,6 @@
             </div>
         </form>
     </div>
+<script src="./js/script.min.js"></script>
 </body>
 </html>

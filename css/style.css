@@ -1,41 +1,47 @@
 @font-face {
     font-family: "PT Sans";
-    src: url("../fonts/PTSans.woff") format("woff");
+    src: url("../fonts/ptsans.woff2") format("woff2"),
+    url("../fonts/ptsans.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "PT Sans";
-    src: url("../fonts/PTSansBold.woff") format("woff");
+    src: url("../fonts/ptsansbold.woff2") format("woff2"),
+    url("../fonts/ptsansbold.woff") format("woff");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Cuprum";
-    src: url("../fonts/Cuprum.woff") format("woff");
+    src: url("../fonts/cuprum.woff2") format("woff2"),
+    url("../fonts/cuprum.woff") format("woff");
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Cuprum";
-    src: url("../fonts/Cuprumbold.woff") format("woff");
+    src: url("../fonts/cuprumbold.woff2") format("woff2"),
+    url("../fonts/cuprumbold.woff") format("woff");
     font-style: normal;
     font-weight: bold;
 }
 
 @font-face {
     font-family: "Cuprum";
-    src: url("../fonts/CuprumItalic.woff") format("woff");
+    src: url("../fonts/cuprumitalic.woff2") format("woff2"),
+    url("../fonts/cuprumitalic.woff") format("woff");
     font-style: italic;
     font-weight: normal;
 }
 
 @font-face {
     font-family: "Cuprum";
-    src: url("../fonts/CuprumBoldItalic.woff") format("woff");
+    src: url("../fonts/cuprumbolditalic.woff2") format("woff2"),
+    url("../fonts/cuprumbolditalic.woff") format("woff");
     font-style: italic;
     font-weight: bold;
 }
@@ -478,15 +484,15 @@ a {
     left: -34px;
 }
 
-.direct-user:hover::before {
+.user-name:hover .direct-user::before {
     background-position: -199px -35px;
 }
 
-.direct-user:active {
+.user-name:active .direct-user {
     color: rgba(0, 0, 0, 0.3);
 }
 
-.direct-user:active::before {
+.user-name:active .direct-user::before {
     background-position: -215px -11px;
 }
 
@@ -540,12 +546,12 @@ a {
     bottom: 13px;
 }
 
-.logout-icon:hover {
+.user-name:hover .logout-icon {
     background-position: -89px -191px;
 }
-
-.logout-icon:active {
+.user-name:active .logout-icon {
     background-position: -62px -191px;
+
 }
 
 .logged-in-index {
@@ -1000,7 +1006,7 @@ a {
 
 .popular-item {
     width: 220px;
-    min-height: 318px; 
+    height: 318px;
     -webkit-box-sizing: border-box; 
             box-sizing: border-box;
     border: 1px solid #eaeaea;
@@ -1122,23 +1128,6 @@ a {
     background-color: white;
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-   .popular-item:hover .hover-buttons {
-    display: -ms-flexbox;
-    min-height: 127px;
-        -ms-flex-direction: column;
-            flex-direction: column;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
-        -ms-flex-align: center;
-            align-items: center;
-            box-sizing: border-box;
-    position: absolute;
-    background-color: white;
-    top:43px;
-    right: 42px;
-}   
-    }
 
 .bfg9000 img {
     margin-top: 5px;
@@ -1159,12 +1148,12 @@ a {
     margin-right: 28px;
 }
 
-.new-item::after {
+.new-item:after {
     content: "";
     display: block;
     position: absolute;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
     background-image: url("../img/new-flag.png");
     width: 60px;
     height: 59px;
@@ -1244,33 +1233,6 @@ a {
             align-items: center;
     min-height: 137px;
 }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    .popular-item .price {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-        -ms-flex-align: center;
-            align-items: center;
-         min-height: 137px;
-}
-    }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    h3.strong-price-head {
-        padding-top: 30px;
-}
-    }
-
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
-    div.strong-price {
-        margin-top: 21px;
-}
-    }
-
 
 .popular-item:hover {
      -webkit-box-shadow: 0px 10px 25px 0px rgba(41, 52, 73, 0.5);
@@ -1406,9 +1368,9 @@ a {
     display: none;
 } 
 
-/*.delivery-info {
+.delivery-info {
     display: none;
-}*/
+}
 
 .guarantee-info {
     display: none;
@@ -2523,12 +2485,12 @@ display: flex;
     left: 0;
     background: transparent;
     z-index: 99999;
-    opacity:0;
+    display: none;
     pointer-events: none;
 }
 
 .feedback-container:target {
-    opacity: 1;
+    display: block;
     pointer-events: auto;
 }
 
@@ -2762,7 +2724,7 @@ input.feedback-submit {
 
 .make-order {
     display: inline-block;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     width: 220px;
     height: 38px;
     background-color: #ee3643;
@@ -2781,7 +2743,7 @@ input.feedback-submit {
 
 .continue-buying {
     display: inline-block;
-    margin-top: 25px;
+    /*margin-top: 25px;*/
     width: 220px;
     height: 38px;
     background-color: white;
@@ -2799,4 +2761,44 @@ input.feedback-submit {
 
 .invisible-radio {
     display: none;
+}
+
+.showing {
+    display: block;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .popular-item:hover .hover-buttons {
+        display: -ms-flexbox;
+        min-height: 127px;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        -ms-flex-align: center;
+        align-items: center;
+        box-sizing: border-box;
+        position: absolute;
+        background-color: white;
+        top:43px;
+        right: 42px;
+    }
+
+    .footer-bottom .container {
+        height: 107px;
+    }
+
+    .perforators-top-nav {
+        height: 38px;
+    }
+
+    .popular-item .price {
+        height: 137px;
+    }
+
+    .new-item .price {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+    }
 }
